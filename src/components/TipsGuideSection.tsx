@@ -42,7 +42,7 @@ function TipsGuideSection() {
         </h2>
 
         {/* Tab Navigation */}
-        <div className="flex space-x-4 mb-6">
+        <div className="flex flex-wrap gap-2 mb-6">
           <button
             className={`px-4 py-2 font-semibold text-sm rounded ${
               activeTab === "Business Guides"

@@ -12,7 +12,7 @@ import Pattern3 from "../assets/pattern3.png";
 function Categories() {
   return (
     <>
-      <div className="p-32 bg-gray-900 relative overflow-hidden">
+      <div className="p-8 sm:p-16 md:p-24 lg:p-32 bg-gray-900 relative overflow-hidden">
         {/* Heading */}
         <div className="border-b border-gray-700 pb-12">
           <h2 className="text-3xl font-bold text-white text-left">
@@ -21,7 +21,7 @@ function Categories() {
         </div>
 
         {/* Icon Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 place-items-center pt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 place-items-center pt-12">
           {/* Icon Card 1 */}
           <div className="text-left">
             <img

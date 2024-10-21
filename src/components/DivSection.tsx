@@ -5,13 +5,13 @@ function DivSection() {
     <>
       <div className="relative bg-[#111827] text-white py-16 overflow-hidden">
         {/* Left Green Brush Stroke */}
-        <div className="absolute inset-y-0 -left-10 w-60  bg-[url('assets/pattern1.png')] bg-no-repeat bg-contain"></div>
+        <div className="absolute inset-y-0 -left-10 lg:w-60 w-36 bg-[url('assets/pattern1.png')] bg-no-repeat bg-contain"></div>
 
         {/* Right Green Brush Stroke */}
-        <div className="absolute inset-y-0 -right-10 w-60 top-2/3 bg-[url('assets/pattern2.png')] bg-no-repeat bg-contain"></div>
+        <div className="absolute inset-y-0 -right-10 lg:w-60 w-36 top-2/3 bg-[url('assets/pattern2.png')] bg-no-repeat bg-contain"></div>
 
         {/*<!-- First Section: Grid of Four Blocks --> */}
-        <div className="container mx-auto grid grid-cols-2 gap-0 mb-16">
+        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-0 mb-16">
           {/*<!-- Each Block --> */}
           <div className="bg-gray-800 rounded-tl-lg p-16">
             <div className="flex flex-col space-y-6">
@@ -87,9 +87,7 @@ function DivSection() {
               </div>
               {/*<!-- Text Content --> */}
               <div>
-                <h3 className="text-3xl font-bold">
-                  World-ClassNamclassName Talent
-                </h3>
+                <h3 className="text-3xl font-bold">World-Class Talent</h3>
                 <p>
                   Find great talent. Build your business. Finance experts,
                   product managers, and project managers in the world.
@@ -562,7 +560,7 @@ function DivSection() {
         </div>
 
         {/*<!-- Second Section: Text & Video --> */}
-        <div className="container mx-auto grid grid-cols-2 gap-8 mb-16">
+        <div className="container mx-auto grid  grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
           {/*<!-- Left Div: Heading, Points, Button --> */}
           <div className="bg-gray-800 p-16 rounded-lg">
             <h2 className="text-3xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#FFF96A] via-[#00FFD1] to-[#90FFCA]">

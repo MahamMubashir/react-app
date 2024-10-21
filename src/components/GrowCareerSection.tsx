@@ -8,7 +8,7 @@ function GrowCareerSection() {
       <div className=" bg-gray-100 p-8">
         <div className="flex flex-col md:flex-row items-start justify-between space-x-8">
           {/* Left Content Section */}
-          <div className="w-full md:w-1/2 space-y-6 pr-48	">
+          <div className="w-full md:w-1/2 space-y-6 pr-0 md:pr-48	">
             {/* Main Heading and Paragraph */}
             <div>
               <h1 className="text-3xl md:text-5xl font-bold text-black">
@@ -63,7 +63,7 @@ function GrowCareerSection() {
           </div>
 
           {/* Right Illustration Section */}
-          <div className="w-full md:w-1/2 mt-10 md:mt-0">
+          <div className="w-full p-8 md:p-0 md:w-1/2 mt-10 md:mt-0">
             <img
               src={Illustration}
               alt="Grow your Business Illustration"

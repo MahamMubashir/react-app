@@ -48,7 +48,7 @@ function HowItWork() {
                     1. Create your account
                   </span>
                 </li>
-                <li className="pr-40">
+                <li className="p-1.5 md:pr-40">
                   <span className="font-bold text-xl text-black">
                     2. Post a project or contest
                   </span>
