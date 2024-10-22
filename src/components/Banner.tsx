@@ -11,10 +11,40 @@ function Banner() {
         <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center justify-between px-8 md:px-20 lg:px-40">
           {/* Left Section - Text */}
           <div className="text-white max-w-lg mt-12 lg:mt-44">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 md:mb-6">
-              Hire top freelancers in confidence using{" "}
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 md:mb-6 flex items-center flex-wrap">
+              Hire top freelancers in confidence using
+              <svg
+                width="27"
+                height="44"
+                viewBox="0 0 27 44"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="mx-2" // Adjust spacing around the SVG if needed
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M0 22.2157L13.028 29.9127V0.599609L0 22.2157ZM13.028 43.0379L0 24.6839L13.028 32.3809V43.0379ZM13.0281 32.3809L26.0612 24.6839L13.0281 43.0379V32.3809ZM13.0281 29.9127V0.599609L26.051 22.2157L13.0281 29.9127Z"
+                  fill="url(#paint0_linear_101_1394)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_101_1394"
+                    x1="25.3336"
+                    y1="21.8188"
+                    x2="1.19474"
+                    y2="22.1546"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stopColor="#91FFCA" />
+                    <stop offset="0.490314" stopColor="#00FFD1" />
+                    <stop offset="1" stopColor="#FFF96A" />
+                  </linearGradient>
+                </defs>
+              </svg>
               <span className="text-green-400">Blockchain</span> technology
             </h1>
+
             <p className="text-base md:text-lg mb-4 md:mb-6">
               Find great talent. Build your business. Take your career to the
               next level. Finance experts, product managers, and project
