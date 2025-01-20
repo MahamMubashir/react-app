@@ -8,7 +8,7 @@ function Banner() {
         <div className="absolute inset-52 right-0 bg-[url('/src/assets/blurimages.png')] bg-cover bg-right"></div>
 
         {/* Content Container */}
-        <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center justify-between px-8 md:px-20 lg:px-40">
+        <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center justify-between px-8 md:px-20 ">
           {/* Left Section - Text */}
           <div className="text-white max-w-lg mt-12 lg:mt-44">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 md:mb-6 flex items-center flex-wrap">

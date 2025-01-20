@@ -1,11 +1,11 @@
-import Post from "../assets/image16.png";
+import pattern from "../assets/pattern.png";
 import { useState } from "react";
 
 function HowItWork() {
   const [activeTab, setActiveTab] = useState("entrepreneur");
   return (
     <>
-      <div className="p-8">
+      <div className="p-8 container mx-auto ">
         {/* Tab Navigation */}
         <div className="border-b-2 border-gray-300 mb-8">
           <div className="flex space-x-8">
@@ -77,12 +77,84 @@ function HowItWork() {
           )}
 
           {/* Right Section (Image) */}
-          <div className="flex justify-center items-center">
-            <img
+          <div className="relative flex justify-center items-center bg-gray-100 lg:bg-white sm:bg-white md:bg-white rounded-lg">
+            {/* <img
               src={Post}
               alt="Right Section Image"
               className="w-6/12 h-auto"
-            />
+            /> */}
+            <div className="z-0 absolute inset-y-0 -left-10 lg:w-60 w-36 bg-[url('assets/formPattern.png')] bg-no-repeat bg-contain"></div>
+
+            {/* Right Green Brush Stroke */}
+            <div className="absolute inset-y-0 -right-10 lg:w-60 w-36 top-2/3 bg-[url('assets/WaterMelon.png')] bg-no-repeat bg-contain"></div>
+
+            <form className="bg-white rounded-lg p-11">
+              <div className="mb-4">
+                <h3 className="text-lg font-semibold">Post for project</h3>
+                <span>Add your account information for withdrawal balance</span>
+              </div>
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700 ">
+                  Project Category
+                </label>
+                <select
+                  id="categories"
+                  className="block w-full mt-1 p-2 border rounded-lg"
+                >
+                  <option>Category 1</option>
+                  <option>Category 2</option>
+                  <option>Category 3</option>
+                  <option>Category 4</option>
+                </select>
+              </div>
+
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700">
+                  Project Name
+                </label>
+                <input
+                  type="text"
+                  id="project-name"
+                  className="block w-full mt-1 p-2 border rounded-lg"
+                  placeholder="Enter Project Name"
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700">
+                  Project Budget
+                </label>
+                <input
+                  type="text"
+                  id="project-budget"
+                  className="block w-full mt-1 p-2 border rounded-lg"
+                  placeholder="Ex: $8000"
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700">
+                  Dateline
+                </label>
+                <select
+                  id="datelines"
+                  className="block w-full mt-1 p-2 border rounded-lg"
+                  required
+                >
+                  <option>Dateline 1</option>
+                  <option>Dateline 2</option>
+                  <option>Dateline 3</option>
+                  <option>Dateline 4</option>
+                </select>
+              </div>
+
+              <button
+                type="submit"
+                className="block w-full mt-1 p-2 border bg-green-400 rounded-lg"
+              >
+                Next
+              </button>
+            </form>
           </div>
         </div>
       </div>

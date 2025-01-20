@@ -6,7 +6,7 @@ function GrowCareerSection() {
   return (
     <>
       <div className=" bg-gray-100 p-8">
-        <div className="flex flex-col md:flex-row items-start justify-between space-x-8">
+        <div className="container mx-auto  flex flex-col md:flex-row items-start justify-between space-x-8">
           {/* Left Content Section */}
           <div className="w-full md:w-1/2 space-y-6 pr-0 md:pr-48	">
             {/* Main Heading and Paragraph */}

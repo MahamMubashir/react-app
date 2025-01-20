@@ -5,15 +5,14 @@ function DivSection() {
     <>
       <div className="relative bg-[#111827] text-white py-16 overflow-hidden">
         {/* Left Green Brush Stroke */}
-        <div className="absolute inset-y-0 -left-10 lg:w-60 w-36 bg-[url('assets/pattern1.png')] bg-no-repeat bg-contain"></div>
+        <div className="z-0 absolute inset-y-0 -left-10 lg:w-60 w-36 bg-[url('assets/pattern1.png')] bg-no-repeat bg-contain"></div>
 
         {/* Right Green Brush Stroke */}
         <div className="absolute inset-y-0 -right-10 lg:w-60 w-36 top-2/3 bg-[url('assets/pattern2.png')] bg-no-repeat bg-contain"></div>
 
         {/*<!-- First Section: Grid of Four Blocks --> */}
-        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-0 mb-16">
-          {/*<!-- Each Block --> */}
-          <div className="bg-gray-800 rounded-tl-lg p-16">
+        <div className="container grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 mb-16">
+          <div className="z-10 bg-gray-800 rounded-tl-lg p-16">
             <div className="flex flex-col space-y-6">
               {/*<!-- Icon --> */}
               <div className="">
@@ -95,7 +94,6 @@ function DivSection() {
               </div>
             </div>
           </div>
-          {/*<!-- Repeat for other blocks --> */}
           <div className="bg-gray-800 rounded-tr-lg p-16 border-b border-l border-gray-700">
             <div className="flex flex-col space-y-6">
               {/*<!-- Icon --> */}
