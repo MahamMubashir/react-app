@@ -77,16 +77,12 @@ function HowItWork() {
           )}
 
           {/* Right Section (Image) */}
-          <div className="relative flex justify-center items-center bg-gray-100 lg:bg-white sm:bg-white md:bg-white rounded-lg">
+          <div className="relative flex justify-center items-center bg-gray-100 rounded-lg">
             {/* <img
               src={Post}
               alt="Right Section Image"
               className="w-6/12 h-auto"
             /> */}
-            <div className="z-0 absolute inset-y-0 -left-10 lg:w-60 w-36 bg-[url('assets/formPattern.png')] bg-no-repeat bg-contain"></div>
-
-            {/* Right Green Brush Stroke */}
-            <div className="absolute inset-y-0 -right-10 lg:w-60 w-36 top-2/3 bg-[url('assets/WaterMelon.png')] bg-no-repeat bg-contain"></div>
 
             <form className="bg-white rounded-lg p-11">
               <div className="mb-4">
