@@ -5,7 +5,7 @@ function HowItWork() {
   const [activeTab, setActiveTab] = useState("entrepreneur");
   return (
     <>
-      <div className="p-8 container mx-auto ">
+      <div className=" container  ">
         {/* Tab Navigation */}
         <div className="border-b-2 border-gray-300 mb-8">
           <div className="flex space-x-8">
@@ -84,7 +84,7 @@ function HowItWork() {
               className="w-6/12 h-auto"
             /> */}
 
-            <form className="bg-white rounded-lg p-11">
+            <form className="bg-white rounded-lg p-11 sm:p-0">
               <div className="mb-4">
                 <h3 className="text-lg font-semibold">Post for project</h3>
                 <span>Add your account information for withdrawal balance</span>

@@ -36,7 +36,7 @@ function TipsGuideSection() {
   ];
   return (
     <>
-      <div className="container mx-auto p-8">
+      <div className="container">
         <h2 className="text-2xl font-bold mb-6 border-b-2 border-gray-300 pb-12">
           Tips/Guide for Everyone
         </h2>

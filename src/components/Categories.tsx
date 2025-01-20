@@ -13,7 +13,7 @@ function Categories() {
   return (
     <>
       <div className="p-8 sm:p-16 md:p-24 lg:p-32 bg-gray-900 relative overflow-hidden">
-        <div className="container mx-auto px-4">
+        <div className="container">
           <div className="border-b border-gray-700 pb-12">
             <h2 className="text-3xl font-bold text-white text-left">
               Get work done in different categories
