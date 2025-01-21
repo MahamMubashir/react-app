@@ -7,14 +7,14 @@ function Header() {
   return (
     <>
       <div className="p-4">
-        <div className="px-8 xl:mx-auto flex flex-col md:flex-row justify-between items-center">
+        <div className="px-8 xl:mx-auto flex flex-col lg:flex-row justify-between items-center">
           {/* Logo and Navigation */}
-          <div className="flex flex-col md:flex-row items-center w-full md:w-auto">
+          <div className="flex flex-col lg:flex-row items-center w-full lg:w-auto">
             {/* Logo */}
-            <div className="flex justify-between w-full md:w-auto">
+            <div className="flex justify-between w-full lg:w-auto">
               <img src={logo} alt="Jobless Logo" className="h-10 w-auto" />
               <button
-                className="md:hidden text-white focus:outline-none"
+                className="lg:hidden text-white focus:outline-none"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 <svg
@@ -38,9 +38,9 @@ function Header() {
             <div
               className={`${
                 isOpen ? "block" : "hidden"
-              } md:flex mt-4 md:mt-0 md:ml-6 w-full md:w-auto`}
+              } lg:flex mt-4 mb-4 lg:mt-0 lg:ml-6 w-full lg:w-auto`}
             >
-              <nav className="flex flex-col md:flex-row md:space-x-4 w-full md:w-auto">
+              <nav className="flex flex-col lg:flex-row md:space-x-4 w-full md:w-auto">
                 <a
                   href="#"
                   className="flex text-white no-underline items-center justify-between w-full md:w-auto"

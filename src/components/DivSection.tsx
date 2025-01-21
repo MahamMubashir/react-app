@@ -593,6 +593,7 @@ function DivSection() {
           <div className="relative rounded-lg overflow-hidden">
             <div className="aspect-w-16 aspect-h-10">
               <iframe
+                className="w-full aspect-video"
                 src="https://www.youtube.com/embed/SqcY0GlETPk"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               ></iframe>

@@ -5,7 +5,7 @@ function HowItWork() {
   const [activeTab, setActiveTab] = useState("entrepreneur");
   return (
     <>
-      <div className=" container  ">
+      <div className=" container py-4  ">
         {/* Tab Navigation */}
         <div className="border-b-2 border-gray-300 mb-8">
           <div className="flex space-x-8">
@@ -37,7 +37,7 @@ function HowItWork() {
         </div>
 
         {/* Content Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2  gap-6">
           {/* Left Section (Text) */}
           {activeTab === "entrepreneur" && (
             <div className="p-11">
@@ -48,7 +48,7 @@ function HowItWork() {
                     1. Create your account
                   </span>
                 </li>
-                <li className="p-1.5 md:pr-40">
+                <li className="p-1.5 ">
                   <span className="font-bold text-xl text-black">
                     2. Post a project or contest
                   </span>
@@ -77,14 +77,21 @@ function HowItWork() {
           )}
 
           {/* Right Section (Image) */}
-          <div className="relative flex justify-center items-center bg-gray-100 rounded-lg">
+          <div className="relative flex justify-center items-center bg-gray-100 rounded-lg py-16">
             {/* <img
               src={Post}
               alt="Right Section Image"
               className="w-6/12 h-auto"
             /> */}
+            {/* Left Green Brush Stroke */}
+            <div className="absolute inset-y-0 right-0  w-36 bg-[url('assets/form2.png')] bg-no-repeat bg-contain"></div>
 
-            <form className="bg-white rounded-lg p-11 sm:p-0">
+            {/* Right Green Brush Stroke */}
+            <div className="absolute bottom-0 left-0 w-48 top-3/4 bg-[url('assets/form1.png')] bg-no-repeat bg-contain"></div>
+
+            <div className="z-1 absolute inset-y-60 right-0  w-0 md:w-40 bg-[url('assets/form3.png')] bg-no-repeat bg-contain"></div>
+
+            <form className="z-0 bg-white rounded-lg p-11">
               <div className="mb-4">
                 <h3 className="text-lg font-semibold">Post for project</h3>
                 <span>Add your account information for withdrawal balance</span>

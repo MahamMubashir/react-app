@@ -6,9 +6,9 @@ function GrowCareerSection() {
   return (
     <>
       <div className=" bg-gray-100 p-8">
-        <div className="container flex flex-col md:flex-row items-start justify-between space-x-8">
+        <div className="container grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2">
           {/* Left Content Section */}
-          <div className="w-full md:w-1/2 space-y-6 pr-0 md:pr-48	">
+          <div className="">
             {/* Main Heading and Paragraph */}
             <div>
               <h1 className="text-3xl md:text-5xl font-bold text-black">
@@ -63,11 +63,11 @@ function GrowCareerSection() {
           </div>
 
           {/* Right Illustration Section */}
-          <div className="w-full p-8 md:p-0 md:w-1/2 mt-10 md:mt-0">
+          <div className="">
             <img
               src={Illustration}
               alt="Grow your Business Illustration"
-              className="w-4/6 h-auto"
+              className=""
             />
           </div>
         </div>

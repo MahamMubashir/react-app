@@ -10,7 +10,7 @@ function Footer() {
           {/* Top Section: First Row with 5 Columns */}
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mt-6 border-b border-gray-700">
             {/* First Column: Jobless Logo, Text, Social Icons, and Line */}
-            <div>
+            <div className="flex flex-col justify-between items-center">
               <img src={logo} alt="Jobless Logo" className="w-36" />
               <p className="mt-4 text-gray-400">
                 Find great talent. Build your business. Take your career to the
@@ -28,7 +28,7 @@ function Footer() {
             </div>
 
             {/* Columns 2 to 5 */}
-            <div>
+            <div className="flex flex-col justify-between items-center">
               <h3 className="text-lg font-semibold">Find Talent</h3>
               <ul className="mt-4 space-y-2 text-gray-400 pl-0">
                 <li>Design & Creative</li>
@@ -39,7 +39,7 @@ function Footer() {
                 <li>Finance & Accounting</li>
               </ul>
             </div>
-            <div>
+            <div className="flex flex-col justify-between items-center">
               <h3 className="text-lg font-semibold">Find Job/Project</h3>
               <ul className="mt-4 space-y-2 text-gray-400 pl-0">
                 <li>Design & Creative</li>
@@ -50,7 +50,7 @@ function Footer() {
                 <li>Finance & Accounting</li>
               </ul>
             </div>
-            <div>
+            <div className="flex flex-col justify-between items-center">
               <h3 className="text-lg font-semibold">About</h3>
               <ul className="mt-4 space-y-2 text-gray-400 pl-0">
                 <li>We are Jobless</li>
@@ -61,7 +61,7 @@ function Footer() {
                 <li>Country Modern Slavery Statement</li>
               </ul>
             </div>
-            <div>
+            <div className="flex flex-col justify-between items-center">
               <h3 className="text-lg font-semibold">Others</h3>
               <ul className="mt-4 space-y-2 text-gray-400 pl-0">
                 <li>Contact Us</li>
@@ -76,7 +76,7 @@ function Footer() {
 
           {/* Middle Section: Second Row with 5 Columns */}
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-            <div>
+            <div className="flex flex-col justify-between items-center">
               <h3 className="text-lg font-semibold">Development & IT</h3>
               <ul className="mt-4 space-y-2 text-gray-400 pl-0">
                 <li>Java Developers</li>
@@ -87,7 +87,7 @@ function Footer() {
                 <li>Data Scientists</li>
               </ul>
             </div>
-            <div>
+            <div className="flex flex-col justify-between items-center">
               <h3 className="text-lg font-semibold">Design & Creative</h3>
               <ul className="mt-4 space-y-2 text-gray-400 pl-0">
                 <li>UX/UI Designers</li>
@@ -98,7 +98,7 @@ function Footer() {
                 <li>Video Editors</li>
               </ul>
             </div>
-            <div>
+            <div className="flex flex-col justify-between items-center">
               <h3 className="text-lg font-semibold">Sales & Marketing</h3>
               <ul className="mt-4 space-y-2 text-gray-400 pl-0">
                 <li>SEM Specialists</li>
@@ -109,7 +109,7 @@ function Footer() {
                 <li>Market Researchers</li>
               </ul>
             </div>
-            <div>
+            <div className="flex flex-col justify-between items-center">
               <h3 className="text-lg font-semibold">Writing & Translation</h3>
               <ul className="mt-4 space-y-2 text-gray-400 pl-0">
                 <li>Java Developers</li>
@@ -120,7 +120,7 @@ function Footer() {
                 <li>Data Scientists</li>
               </ul>
             </div>
-            <div>
+            <div className="flex flex-col justify-between items-center">
               <h3 className="text-lg font-semibold">Writing & Translation</h3>
               <ul className="mt-4 space-y-2 text-gray-400 pl-0">
                 <li>Java Developers</li>
@@ -135,7 +135,7 @@ function Footer() {
 
           {/* Bottom Section: Third Row with 4 Columns and Stroke */}
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-            <div>
+            <div className="flex flex-col justify-between items-center">
               <h3 className="text-lg font-semibold">Development & IT</h3>
               <ul className="mt-4 space-y-2 text-gray-400 pl-0">
                 <li>Java Developers</li>
@@ -146,7 +146,7 @@ function Footer() {
                 <li>Data Scientists</li>
               </ul>
             </div>
-            <div>
+            <div className="flex flex-col justify-between items-center">
               <h3 className="text-lg font-semibold">Design & Creative</h3>
               <ul className="mt-4 space-y-2 text-gray-400 pl-0">
                 <li>UX/UI Designers</li>
@@ -157,7 +157,7 @@ function Footer() {
                 <li>Video Editors</li>
               </ul>
             </div>
-            <div>
+            <div className="flex flex-col justify-between items-center">
               <h3 className="text-lg font-semibold">Sales & Marketing</h3>
               <ul className="mt-4 space-y-2 text-gray-400 pl-0">
                 <li>SEM Specialists</li>
@@ -168,7 +168,7 @@ function Footer() {
                 <li>Market Researchers</li>
               </ul>
             </div>
-            <div>
+            <div className="flex flex-col justify-between items-center">
               <h3 className="text-lg font-semibold">Writing & Translation</h3>
               <ul className="mt-4 space-y-2 text-gray-400 pl-0">
                 <li>Java Developers</li>
@@ -184,7 +184,7 @@ function Footer() {
               <img
                 src={FooterStroke}
                 alt="Footer Design Stroke"
-                className="w-full md:w-40"
+                className="z-0 w-full md:w-40"
               />
             </div>
           </div>
