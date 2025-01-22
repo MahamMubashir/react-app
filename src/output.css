@@ -570,9 +570,9 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .container {
-    max-width: 1024px;
+    max-width: 1025px;
   }
 }
 
@@ -608,12 +608,20 @@ video {
   left: 0;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
+}
+
+.inset-0 {
+  inset: 0px;
 }
 
 .inset-52 {
@@ -682,6 +690,10 @@ video {
   z-index: 10;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -715,10 +727,6 @@ video {
 
 .mb-8 {
   margin-bottom: 2rem;
-}
-
-.ml-0\.5 {
-  margin-left: 0.125rem;
 }
 
 .ml-4 {
@@ -867,6 +875,16 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.translate-x-0 {
+  --tw-translate-x: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-full {
+  --tw-translate-x: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -971,6 +989,10 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .overflow-hidden {
@@ -1132,6 +1154,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-opacity-95 {
+  --tw-bg-opacity: 0.95;
+}
+
 .bg-\[url\(\'\/src\/assets\/blurimages\.png\'\)\] {
   background-image: url('/src/assets/blurimages.png');
 }
@@ -1200,10 +1226,6 @@ video {
   background-repeat: no-repeat;
 }
 
-.stroke-white {
-  stroke: #fff;
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1227,6 +1249,10 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .p-8 {
@@ -1447,13 +1473,19 @@ video {
   outline-color: #e5e7eb;
 }
 
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 @media (min-width: 768px) {
   .md\:aspect-h-10 {
     --tw-aspect-h: 10;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .lg\:aspect-h-16 {
     --tw-aspect-h: 16;
   }
@@ -1525,14 +1557,6 @@ video {
     margin-bottom: 1.5rem;
   }
 
-  .md\:ml-2\.5 {
-    margin-left: 0.625rem;
-  }
-
-  .md\:mt-0 {
-    margin-top: 0px;
-  }
-
   .md\:w-40 {
     width: 10rem;
   }
@@ -1596,13 +1620,9 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .lg\:ml-6 {
     margin-left: 1.5rem;
-  }
-
-  .lg\:mt-0 {
-    margin-top: 0px;
   }
 
   .lg\:mt-16 {
