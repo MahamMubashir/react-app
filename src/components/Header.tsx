@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
       <div className="p-4">
-        <div className="px-8 xl:mx-auto flex flex-col lg:flex-row justify-between items-center">
+        <div className="px-8 xl:mx-auto flex flex-col lg:flex-row justify-between items-center ">
           {/* Logo and Navigation */}
           <div className="flex flex-col lg:flex-row items-center w-full lg:w-auto">
             {/* Logo */}
@@ -126,7 +126,7 @@ function Header() {
           </div>
 
           {/* Call to Action Section */}
-          <div className="flex flex-col sm:flex-row items-center  space-y-2 sm:space-y-0 sm:space-x-4 md:ml-2.5">
+          <div className="flex flex-col sm:flex-row items-center  space-y-2 sm:space-y-0 sm:space-x-4 md:ml-2.5 md:mt-0 mt-4">
             <a href="#" className="flex text-white no-underline text-sm">
               Apply as a Freelancer
             </a>
