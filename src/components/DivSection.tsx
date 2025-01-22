@@ -591,7 +591,7 @@ function DivSection() {
 
           {/*<!-- Right Div: Video --> */}
           <div className="relative rounded-lg overflow-hidden">
-            <div className="aspect-w-16 aspect-h-10">
+            <div className="aspect-w-16 aspect-h-10 xl:aspect-h-10  lg:aspect-h-16 md:aspect-h-10 ">
               <iframe
                 className="w-full aspect-video"
                 src="https://www.youtube.com/embed/SqcY0GlETPk"

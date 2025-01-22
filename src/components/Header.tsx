@@ -126,7 +126,7 @@ function Header() {
           </div>
 
           {/* Call to Action Section */}
-          <div className="flex flex-col sm:flex-row items-center mt-4 md:mt-0 space-y-2 sm:space-y-0 sm:space-x-4 md:ml-2.5">
+          <div className="flex flex-col sm:flex-row items-center  space-y-2 sm:space-y-0 sm:space-x-4 md:ml-2.5">
             <a href="#" className="flex text-white no-underline text-sm">
               Apply as a Freelancer
             </a>
