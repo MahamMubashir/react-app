@@ -5,7 +5,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="p-4">
+    <div className="p-2">
       <div className="px-8 xl:mx-auto flex flex-col lg:flex-row justify-between items-center">
         {/* Logo and Toggle Button */}
         <div className="flex justify-between w-full lg:w-auto items-center">
