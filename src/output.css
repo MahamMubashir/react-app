@@ -570,9 +570,9 @@ video {
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .container {
-    max-width: 1025px;
+    max-width: 1024px;
   }
 }
 
@@ -1485,7 +1485,7 @@ video {
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .lg\:aspect-h-16 {
     --tw-aspect-h: 16;
   }
@@ -1620,7 +1620,7 @@ video {
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .lg\:ml-6 {
     margin-left: 1.5rem;
   }
